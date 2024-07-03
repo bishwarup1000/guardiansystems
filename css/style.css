@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar & hero section css start */
+
+.brandname{
+    font-size: 60px;
+    /* color: #1E90FF; */
+    color: #007BFF;
+}
+
+.menulink{
+    color: #32CD32;
+    transition: 0.3s;
+    font-size: 20px;
+    position: relative;
+}
+
+.menulink:hover{
+    cursor: pointer;
+    color: #2E8B57;
+}
+
+.menulink:after{
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    height: 3px !important;
+    bottom: -10px !important;
+    width: 0 !important;
+    transition: 0.3s !important;
+    background: #2E8B57;
+}
+
+.menulink:hover:after{
+    width: 100% !important;
+}
+
+
+.mybtn{
+    /* color: white; */
+    color: #007BFF !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border-color: #007BFF !important;
+    border-width: 2px !important;
+    padding: 11px 18px !important;
+    transition: 0.3s !important;
+}
+
+.mybtn:hover{
+    color: white !important;
+    background-color: #007BFF !important;
+}
+
+.mybtn1{
+    color: #007BFF !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border-color: #007BFF !important;
+    border-width: 2px !important;
+    padding: 8px 18px !important;
+    transition: 0.3s !important;
+}
+
+.mybtn1:hover{
+    color: white !important;
+    background-color: #007BFF !important;
+    border-color: white !important;
+}
+
+.mybtn2{
+    color: white !important;
+    background-color: #007BFF !important;
+    border-color: white !important;
+    border-width: 2px !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding: 8px 18px !important;
+    transition: 0.3s !important;
+}
+
+.mybtn2:hover{
+    color: #007BFF !important;
+    background-color: white !important;
+    border-color: #007BFF !important;
+}
+
+/* navbar & hero section css end */
+
+/* Blogs css start */
+.textsize{
+    font-size: 50px !important;
+    text-decoration: underline !important;
+    text-align: center !important;
+}
+
+.lastword{
+    margin-top: 60px;
+    text-align: center !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: indigo;
+    font-size: 40px;
+    color: white;  
+}
+
+.mybtn3{
+    color: #007BFF !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border-color: #007BFF !important;
+    border-width: 2px !important;
+    padding: 8px 18px !important;
+    transition: 0.3s !important;
+    width: 100% !important;
+}
+
+.mybtn3:hover{
+    color: white !important;
+    background-color: #007BFF !important;
+    border-color: white !important;
+}
