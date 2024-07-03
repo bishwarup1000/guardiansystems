@@ -56,3 +56,13 @@ function myclick() {
     // Redirect to WhatsApp
     window.open(whatsappURL, '_blank');
 }
+
+function hireme(){
+    var hireme = `Hi, I want to hire you for my assingment.`;
+
+    var encodeMessage = encodeURIComponent(hireme);
+    var phoneNumber = '8482059043';
+
+    var whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeMessage},`;
+    window.open(whatsappURL, '_blank');
+}
