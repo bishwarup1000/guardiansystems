@@ -48,7 +48,7 @@ function myclick() {
     var encodedMessage2 = encodeURIComponent(message2);
     
     // Replace '1234567890' with the actual phone number in international format
-    var phoneNumber = '8482059043';
+    var phoneNumber = '7059539009';
     
     // Create the WhatsApp URL
     var whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}, ${encodedMessage1}, ${encodedMessage2}`;
